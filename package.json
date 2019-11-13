@@ -1,0 +1,19 @@
+{
+  "name": "package-demo",
+  "version": "0.0.0",
+  "description": "testing package for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lperezp/package-demo.git"
+  },
+  "author": "lperezp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lperezp/package-demo/issues"
+  },
+  "homepage": "https://github.com/lperezp/package-demo#readme"
+}
