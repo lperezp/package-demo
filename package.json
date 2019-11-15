@@ -4,7 +4,8 @@
   "description": "testing package for npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/lperezp/package-demo/issues"
   },
-  "homepage": "https://github.com/lperezp/package-demo#readme"
+  "homepage": "https://github.com/lperezp/package-demo#readme",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@angular/core": "~8.1.2",
+    "@ionic/angular": "^4.7.1"
+  }
 }
