@@ -21,7 +21,7 @@
     "typescript": "^2.9.2"
   },
   "dependencies": {
-    "@angular/core": "~8.1.2",
+    "@angular/core": "~11.0.5",
     "@ionic/angular": "^4.7.1"
   }
 }
